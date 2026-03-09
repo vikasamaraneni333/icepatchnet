@@ -1,0 +1,117 @@
+# =========================================================
+# Build system configuration
+# =========================================================
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+# =========================================================
+# Project metadata (MOST IMPORTANT SECTION)
+# =========================================================
+[project]
+
+# ⚠️ Provide your PACKAGE Name
+name = "icepatchnet"
+version = "0.1.0"
+
+# 🔁 Update according your project scope or description
+description = "Ice-PatchNet: A patch (segmented images) based CNN workflow"
+
+# ⚠️ Write the decription how you want to represent your Packages
+readme = "README.md"
+
+# ⚠️ Change only if dropping support for older Python
+requires-python = ">=3.8"
+
+# =========================================================
+# Authors (update if contributors change)
+# =========================================================
+authors = [
+  { name = "Sai Vikas Amaraneni" },
+  { name = "Maloy Kumar Devnath" },
+  { name = "Shalini Srinivasa" },
+  { name = "Chhaya Kulkarni" },
+  { name = "Sudip Chakraborty" },
+  { name = "Vandana P. Janeja" }
+]
+
+# =========================================================
+# License information
+# ---------------------------------------------------------
+# ⚠️ PyPI prefers SPDX identifiers (MIT, BSD-3-Clause, etc.)
+# If you later change license → UPDATE THIS
+# =========================================================
+license = { text = "iHARP" }
+
+# =========================================================
+# Runtime dependencies
+# =========================================================
+dependencies = [
+  "numpy",
+  "torch",
+  "opencv-python",
+  "matplotlib",
+  "tqdm"
+]
+
+# =========================================================
+# Keywords (PyPI discovery & search)
+# =========================================================
+keywords = [
+  "icepatchnet",
+  "Ice-PatchNet"
+  "patch based CNN",
+  "Convolutional Neural Network"
+  "segmentation of images",
+  "image prediction",
+  "spatio temporal data mining",
+  "geospatial",
+  "geoai",
+  "climate",
+  "cryosphere",
+  "machine learning",
+  "data science"
+]
+
+# =========================================================
+# Classifiers (MUST be valid PyPI classifiers). Update for your packages
+# =========================================================
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+
+  "Topic :: Scientific/Engineering",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Scientific/Engineering :: GIS",
+  "Topic :: Scientific/Engineering :: Atmospheric Science",
+
+  "Topic :: Software Development :: Libraries :: Python Modules",
+
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+
+  "Operating System :: OS Independent"
+]
+
+# =========================================================
+# Project URLs
+# =========================================================
+[project.urls]
+Homepage = "https://github.com/vikasamaraneni333/icepatchnet"
+Source   = "https://github.com/vikasamaraneni333/icepatchnet"
+Issues   = "https://github.com/vikasamaraneni333/icepatchnet/issues"
+
+# =========================================================
+# Setuptools configuration
+# =========================================================
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+
+# =========================================================
+# Package discovery
+# =========================================================
+[tool.setuptools.packages.find]
+where = ["src"]
