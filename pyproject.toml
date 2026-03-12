@@ -60,7 +60,7 @@ dependencies = [
 # =========================================================
 keywords = [
   "icepatchnet",
-  "Ice-PatchNet"
+  "Ice-PatchNet",
   "patch based CNN",
   "Convolutional Neural Network"
   "segmentation of images",
