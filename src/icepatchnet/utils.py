@@ -1,5 +1,19 @@
 import numpy as np
 import math
+import cv2
+
+def to_grayscale(filelist):
+    rgb_image_list = []
+    gray_image_list = []
+
+    for file in filelist:
+        image_rgb = cv2.imread(file)
+        rgb_image_list.append(image_rgb)
+
+        gray_image = cv2.cvtColor(image_rgb, cv2.COLOR_BGR2GRAY)
+        gray_image_list.append(gray_image)
+
+    return gray_image_list,rgb_image_list
 
 def extract_patches(images, num_patches):
     all_patches = []
