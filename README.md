@@ -13,4 +13,17 @@ This version of Ice-PatchNet has only been tested on the images of sea ice exten
 
 ----------------------------------------------------------------------------
 
+## Method Overview
 
+High-resolution SIE images are converted to grayscale to reduce complexity and computational overhead. Ice-PatchNet performs:
+1. **Patch Segmentation:** The images are divided into a user-defined number of non-overlapping patches. This enables an equal distribution of SIE features and improves the model's ability to distinguish between land, open water, and ice.
+2. **Spatiotemporal Feature Extraction:** Each patch is treated as a single unit and is processed through a deep convolutional neural network (3 layers, $3 \times 3$ kernels) with ReLU activation to identify localized patterns.
+3. **Patches Reassembly:** Predicted patches are re-aligned using a global counter to reconstruct the full geographic extent without spatial distortion.
+
+------------------------
+
+## Citation
+If you utilize this framework or the patch-based methodology in your research, please cite our ICDM '25 paper:
+```
+Amaraneni, S. V., Devnath, M. K., Srinivasa, S., Kulkarni, C., Chakraborty, S., & Janeja, V. P. (2025). Predicting Antarctic sea ice with scalable deep learning models. In Proceedings of the IEEE ICDM Workshop on Spatial and Spatiotemporal Data Mining (SSTDM).
+```
