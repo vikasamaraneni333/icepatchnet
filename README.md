@@ -1,5 +1,4 @@
-![iHARP]<img width="300" height="255" alt="iHARP-Logo" src="https://github.com/user-attachments/assets/bba6adb3-b718-4665-b7eb-3a21a73b8e9f" />
-
+<img width="200" height="105" alt="iHARP-Logo" src="https://github.com/user-attachments/assets/bba6adb3-b718-4665-b7eb-3a21a73b8e9f" />
 
 # Predicting Antarctic Sea Ice with Scalable Deep Learning
 ## Ice-PatchNet
