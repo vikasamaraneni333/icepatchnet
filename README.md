@@ -1,4 +1,5 @@
-![iHARP](https://drive.google.com/file/d/15dX-t936yblklrMS7RpLL-HdqcycEzlP/view?usp=drive_link)
+![iHARP]<img width="3300" height="2550" alt="iharp_logo" src="https://github.com/user-attachments/assets/da04e518-67c5-4001-9fe2-29b5a7d66efc" />
+
 # Predicting Antarctic Sea Ice with Scalable Deep Learning
 ## Ice-PatchNet
 Ice-PatchNet is a novel, scalable deep learning framework designed to predict daily Sea Ice Extent (SIE) over the Antarctic region. By using a patch-based segmentation approach, the model can efficiently capture localized spatiotemporal features.
