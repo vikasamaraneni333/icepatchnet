@@ -24,6 +24,11 @@ This version of Ice-PatchNet has only been tested on the images of sea ice exten
 
 ------------------------
 
+## Acknowledgment
+
+This work is funded by the National Science Foundation Award #2118285, ”iHARP: NSF HDR Institute for Harnessing Data and Model Revolution in the Polar Region” and #2321009 ”SCIPE: Enhancing the Transdisciplinary Research Ecosystem for Earth and Environmental Science with Dedicated Cyber Infrastructure Professionals”
+
+---------------------------------------------------------------------------------
 ## Citation
 If you utilize this framework or the patch-based methodology in your research, please cite our ICDM '25 paper:
 ```
